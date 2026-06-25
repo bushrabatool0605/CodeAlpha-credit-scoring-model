@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Project tracking files copy karein
 COPY backend/ /app/backend/
-COPY models/ /app/models/
+# COPY models/ /app/models/
 
 # React ke build production folder ko FastAPI static path me shift karein
 COPY --from=frontend-builder /app/frontend/dist /app/backend/static
