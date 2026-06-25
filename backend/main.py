@@ -47,7 +47,7 @@ def health():
     return {"status": "healthy", "message": "Credit Scoring ML API is running smoothly."}
 
 
-@app.post("/api/predict")
+@app.post("/predict")
 def predict(data: CreditInput):
     try:
         # Dynamic feature engineering
