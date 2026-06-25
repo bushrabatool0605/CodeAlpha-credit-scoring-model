@@ -1,10 +1,13 @@
 # CreditIQ: End-to-End Credit Risk Assessment & Default Prediction System
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-Production-green.svg)
-![React](https://img.shields.io/badge/React-Vite-cyan.svg)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange.svg)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
+---
+title: Credit Risk Assessment Dashboard
+emoji: 🏦
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
 
 ## Overview
 
