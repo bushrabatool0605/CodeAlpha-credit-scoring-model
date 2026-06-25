@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-const API_URL = "http://localhost:8000/predict";
+const API_URL =  "/predict";
 
 const defaultForm = {
   age: "", monthly_income: "", open_credit_lines: "",
