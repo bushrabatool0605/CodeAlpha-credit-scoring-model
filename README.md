@@ -1,4 +1,3 @@
-# CreditIQ: End-to-End Credit Risk Assessment & Default Prediction System
 ---
 title: Credit Risk Assessment Dashboard
 emoji: 🏦
@@ -8,6 +7,7 @@ sdk: docker
 app_port: 7860
 pinned: false
 ---
+# CreditIQ: End-to-End Credit Risk Assessment & Default Prediction System
 
 ## Overview
 
