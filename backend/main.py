@@ -19,10 +19,10 @@ app.add_middleware(
 # 📂 Path Config: Dynamic checking for local vs Docker environment
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))  # Points to 'backend' folder
 PARENT_DIR = os.path.abspath(os.path.join(BACKEND_DIR, os.pardir))  # Points to project root
-
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 # Models paths matching your structured directories
-MODEL_PATH = os.path.join(PARENT_DIR, "credit_scoring_rf_model.pkl")
-SCALER_PATH = os.path.join(PARENT_DIR,"credit_scoring_scaler.pkl")
+MODEL_PATH = os.path.join(CURRENT_DIR, "credit_scoring_rf_model.pkl")
+SCALER_PATH = os.path.join(CURRENT_DIR,"credit_scoring_scaler.pkl")
 
 try:
     model = joblib.load(MODEL_PATH)
